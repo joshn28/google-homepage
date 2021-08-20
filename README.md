@@ -1,0 +1,1 @@
+This purpose of this project was to deconstruct an existing web page (google homepage) and rebuild it. The skills that I have demonstrated in this project were the basics of HTML and the basics of CSS, Flexbox and using the built-in browser developer tools to help me mimic certain CSS from the original google homepage. 
