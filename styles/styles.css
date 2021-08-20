@@ -62,5 +62,35 @@
 
 #google-logo {
     display: block;
-    margin: 15vh auto;
+    margin: 14.7vh auto 0 auto;
+}
+
+#search-bar {
+    margin: 1.4% auto 0;
+    width: 28.9%;
+    border-radius: 30px;
+    padding: 1em;
+    border: rgb(223, 225, 229) 0.3px solid;
+    height: 18px !important;
+}
+
+#search-bar:hover {
+    cursor: text;
+}
+
+#search-bar form {
+    display: inline-block;
+}
+
+#search-bar input {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: -3px;
+    width: 255%;
+    color: rgb(0, 0, 0);
+}
+
+input:focus{
+    outline: none;
 }
