@@ -1,0 +1,60 @@
+#nav-bar {
+    list-style-type: none;
+}
+
+#nav-bar li {
+    display: inline;
+}
+
+#nav-bar div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-bar-left , #nav-bar-right{
+    margin: 20px 20px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+#nav-bar-right {
+    margin: 5px 5px;
+}
+
+#nav-bar-left li, #nav-bar-right li {
+    margin-right: 10px;
+}
+
+.google-links:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: .5;
+}
+
+#google-apps-icon {
+    position: relative;
+    top: 7px;
+    opacity: .5;
+}
+
+#google-apps-icon:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#btn-sign-in {
+    border-radius: 0;
+    border: none;
+    background-color: rgb(66, 133, 244);
+    color: rgb(255, 255, 255);
+    padding: 6px 12px;
+}
+
+#btn-sign-in:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+#btn-sign-in:hover {
+    opacity: 1 !important;
+}
